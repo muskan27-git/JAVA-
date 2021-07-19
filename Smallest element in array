@@ -1,0 +1,21 @@
+package com.company;
+import java.util.*;
+
+import java.util.Scanner;
+
+public class arrtut2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = {12, -134, 12, 45, 67};
+    int min = Integer.MAX_VALUE;
+        for (int element : arr) {
+                if (element < min) {
+                min=element;
+
+
+                }
+
+                }
+                System.out.println(min);
+                }
+                }
