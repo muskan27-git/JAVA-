@@ -1,0 +1,28 @@
+package com.company;
+
+public class varargstut {
+    static int sum(int ...arr)
+    {
+
+        int result=0;
+
+        for(int a:arr)
+        {
+            result=result+ a;
+
+
+        }
+        return result;
+
+
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("the sum of 2 and 3 is " + sum(2,3));
+        System.out.println(sum(4,5));
+        System.out.println(sum(5,6));
+
+    }
+
+}
